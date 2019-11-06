@@ -20,3 +20,25 @@
 .App-link {
   color: #09d3ac;
 }
+
+
+#home{
+  height: 1000px;
+background: red;
+}
+#link{
+  height: 1000px;
+background: green;
+}
+
+.main-navigation {
+  position: absolute;
+  background-color: transparent;
+  transition: all 0.3s ease 0s;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  left: 0;
+  width: 100%;
+  z-index: 99999;
+  padding-top: 15px;
+}
