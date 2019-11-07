@@ -1,16 +1,24 @@
-import React from 'react'
+import React,{Component} from 'react'
 
-const Service_dom =()=>{
+class Service_dom extends Component {
+    constructor(props) {
+        super(props)
+      }
+      
+      
+render(){
+    console.log(this.props);
     return(
         <div className="single-service fadeInLeft">
             <div className="sin-ser-icon">
-                <i className="fa fa-thumbs-o-up" aria-hidden="true"></i>
+            <i className={this.props.icon} aria-hidden="true"></i>
             </div>
             <div className="sin-ser-content">
-                <h3>Great custmer care</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error porro est perspiciatis quod quae dolores assumenda ipsum libero deleniti .</p>
+                <h3>{this.props.title}</h3>
+                <p>{this.props.msg}</p>
             </div>
         </div>
     )
+}
 }
 export default Service_dom;

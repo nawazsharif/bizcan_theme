@@ -1,5 +1,6 @@
 import React from 'react';
 import { Carousel} from 'react-bootstrap';
+import { Link} from 'react-router-dom';
 
 const Slider =()=> {
 	
@@ -16,11 +17,11 @@ const Slider =()=> {
                     <div className="caption-info">
                         <div className="container">
                             <div className="row">
-                                <div className="col-sm-12 col-md-10 col-md-offset-1">
+                                <div className="col-12">
                                     <div className="caption-info-inner text-center">
                                         <h1 className="animated fadeInLeft">Find your Design Today</h1>
                                         <p className="animated fadeInLeft">Lorem Ipsum is simply dummy text of the printing and typeseatting industry. Lorem Ipsum has been the industry's</p>
-                                        <a href="#hot-deals" className="animated fadeInLeft btn btn-primary page-scroll">Read More</a>
+                                        <Link to="#hot-deals" className="animated fadeInLeft btn btn-primary page-scroll">Read More</Link>
                                     </div>
                                 </div>
                             </div>
@@ -38,11 +39,11 @@ const Slider =()=> {
                     <div className="caption-info">
                         <div className="container">
                             <div className="row">
-                                <div className="col-sm-12 col-md-10 col-md-offset-1">
+                                <div className="col-12">
                                     <div className="caption-info-inner text-center">
                                         <h1 className="animated fadeInLeft">Find your Design Today</h1>
                                         <p className="animated fadeInLeft">Lorem Ipsum is simply dummy text of the printing and typeseatting industry. Lorem Ipsum has been the industry's</p>
-                                        <a href="#hot-deals" className="animated fadeInLeft btn btn-primary page-scroll">Read More</a>
+                                        <Link to="#hot-deals" className="animated fadeInLeft btn btn-primary page-scroll">Read More</Link>
                                     </div>
                                 </div>
                             </div>
