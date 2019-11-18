@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom'
+// import { Link } from 'react-router-dom'
+import { Link, animation as scroll } from 'react-scroll'
 
 class NavBar extends Component {
   render() {
@@ -23,42 +24,96 @@ class NavBar extends Component {
 
         <div className='collapse navbar-collapse' id='navbarSupportedContent'>
           <ul className='navbar-nav ml-auto'>
-            <li className='nav-item active'>
-              <Link to='#about' className='nav-link'>
-                About Us
+            <li className='nav-item'>
+              <Link activeClass='active'
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={1000}
+                to='slider'
+                activeClassName='active'
+                className='nav-link'>
+                HOME
               </Link>
             </li>
             <li className='nav-item'>
-              <Link to='/order-online' className='nav-link'>
-                Order Online
+              <Link activeClass='active'
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={1000}
+                to='about'
+                activeClassName='active'
+                className='nav-link'>
+                ABOUT US
               </Link>
             </li>
             <li className='nav-item'>
-              <Link to='/reservation' className='nav-link'>
-                Online Table Reservation
+              <Link
+                activeClass='active'
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={1000}
+                to='service'
+                activeClassName='active'
+                className='nav-link'>
+                SERVICE
               </Link>
             </li>
             <li className='nav-item'>
-              <Link to='/contactus' className='nav-link'>
-                Contact us
+              <Link
+                activeClass='active'
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={1000}
+                to='works'
+                activeClassName='active'
+                className='nav-link'>
+                WORKS
               </Link>
             </li>
             <li className='nav-item'>
-              <Link to='/login' className='nav-link'>
-                Login
+              <Link
+                activeClass='active'
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={1000}
+                to='team'
+                activeClassName='active'
+                className='nav-link'>
+                TEAM
+              </Link>
+            </li>
+            <li className='nav-item'>
+              <Link
+                activeClass='active'
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={1000}
+                to='blog'
+                activeClassName='active'
+                className='nav-link'>
+                BLOG
+              </Link>
+            </li>
+            <li className='nav-item'>
+              <Link
+                // activeClass='active'
+                // spy={true}
+                // smooth={true}
+                // offset={-70}
+                // duration={1000}
+                to='/contact'
+                // activeClassName='active'
+                className='nav-link'>
+                CONTACT
               </Link>
             </li>
 
-            <li className='nav-item'>
-              <Link to='/cart' className='nav-link'>
-                <i className='fa fa-cart-plus' /> My Cart
-              </Link>
-            </li>
-            <li className='nav-item'>
-              <Link to='tel:01781554418' className='nav-link'>
-                <i className='fas fa-phone-volume' /> <b>01781554418</b>
-              </Link>
-            </li>
           </ul>
         </div>
       </nav>

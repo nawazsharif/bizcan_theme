@@ -11,6 +11,7 @@ import Pricing_section from './Pricing_section'
 
 import Service_Section from './Service-Section'
 import Happy_Client from './Happy_Client';
+import Blog_Section from './Blog_Section'
 import Footer from './Footer';
 
 const Home = () => {
@@ -20,7 +21,7 @@ const Home = () => {
             <Slider />
             <About />
             <Service_Section />
-            <Mixitup />
+            {/* <Mixitup /> */}
             <div className="fixed-bg-wrapper color-bg">
                 <div className="container">
                     <div className="row">
@@ -37,6 +38,7 @@ const Home = () => {
             <Team_section />
             <Pricing_section />
             <Happy_Client />
+            <Blog_Section />
 
             <Footer />
 
