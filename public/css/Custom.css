@@ -116,8 +116,7 @@ h6 {
     font-weight: 500;
 }
 .navbar-brand {
-    padding: 0px;
-    padding-top: 12px;
+    padding-top: 0px!important;
 }
 .navbar {
     background-color: transparent;
@@ -150,9 +149,9 @@ h6 {
     display: inline-block;
     margin-left: 2px;
 }
-.dark{display: none}
+.dark{display: none !important}
 .stick .white{display: none}
-.stick .dark{display: block;padding-top: 12px}
+.stick .dark{display: block !important; padding-top: 12px}
 #contact{
 
     background-position: center center;

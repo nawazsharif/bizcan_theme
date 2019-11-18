@@ -58,18 +58,18 @@ class Footer extends Component {
                 </div>
               </div>
             </div>
-            <div class="row">
-              <div class="col-md-12">
-                <div class="footer-social">
+            <div className="row">
+              <div className="col-md-12">
+                <div className="footer-social">
                   <ul>
-                    <li> <Link to=""><i class="fa fa-facebook" aria-hidden="true"></i></Link></li>
-                    <li><Link to=""><i class="fa fa-pinterest" aria-hidden="true"></i>
+                    <li> <Link to=""><i className="fa fa-facebook" aria-hidden="true"></i></Link></li>
+                    <li><Link to=""><i className="fa fa-pinterest" aria-hidden="true"></i>
                     </Link></li>
-                    <li><Link to=""><i class="fa fa-dribbble" aria-hidden="true"></i>
+                    <li><Link to=""><i className="fa fa-dribbble" aria-hidden="true"></i>
                     </Link></li>
-                    <li><Link to=""><i class="fa fa-twitter" aria-hidden="true"></i>
+                    <li><Link to=""><i className="fa fa-twitter" aria-hidden="true"></i>
                     </Link></li>
-                    <li> <Link to=""><i class="fa fa-rss" aria-hidden="true"></i>
+                    <li> <Link to=""><i className="fa fa-rss" aria-hidden="true"></i>
                     </Link> </li>
                   </ul>
                 </div>

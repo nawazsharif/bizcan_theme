@@ -18,49 +18,49 @@ class Happy_Client extends Component {
 
     return (
 
-      <section class="testimonial-area">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-12">
-              <div class="testimonial-head">
+      <section className="testimonial-area">
+        <div className="container">
+          <div className="row">
+            <div className="col-md-12">
+              <div className="testimonial-head">
                 <h2>happy clients</h2>
               </div>
             </div>
           </div>
-          <div class="row">
-            <div class="test-inner owl-carousel owl-theme" style={{ opacity: '1', display: 'block' }}>
+          <div className="row">
+            <div className="test-inner owl-carousel owl-theme" style={{ opacity: '1', display: 'block' }}>
               <OwlCarousel ref="gallery" items={1} options={options}>
-                <div class="item">
+                <div className="item">
 
-                  <div class="single-testimonial">
-                    <div class="client-test">
+                  <div className="single-testimonial">
+                    <div className="client-test">
                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet natus inventore dolores velit voluptate porro excepturi, dolorem officia commodi fugit repellendus qui, quam asperiores sapiente libero unde labore debitis, aliquid.</p>
                     </div>
-                    <span class="client-name">robert</span>
-                    <span class="client=des">ceo, destiny</span>
+                    <span className="client-name">robert</span>
+                    <span className="client=des">ceo, destiny</span>
                   </div>
 
 
                 </div>
-                <div class="item">
+                <div className="item">
 
-                  <div class="single-testimonial">
-                    <div class="client-test">
+                  <div className="single-testimonial">
+                    <div className="client-test">
                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet natus inventore dolores velit voluptate porro excepturi, dolorem officia commodi fugit repellendus qui, quam asperiores sapiente libero unde labore debitis, aliquid.</p>
                     </div>
-                    <span class="client-name">robert</span>
-                    <span class="client=des">ceo, destiny</span>
+                    <span className="client-name">robert</span>
+                    <span className="client=des">ceo, destiny</span>
                   </div>
 
 
-                </div><div class="item">
+                </div><div className="item">
 
-                  <div class="single-testimonial">
-                    <div class="client-test">
+                  <div className="single-testimonial">
+                    <div className="client-test">
                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet natus inventore dolores velit voluptate porro excepturi, dolorem officia commodi fugit repellendus qui, quam asperiores sapiente libero unde labore debitis, aliquid.</p>
                     </div>
-                    <span class="client-name">robert</span>
-                    <span class="client=des">ceo, destiny</span>
+                    <span className="client-name">robert</span>
+                    <span className="client=des">ceo, destiny</span>
                   </div>
 
 
