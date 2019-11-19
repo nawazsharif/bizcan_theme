@@ -13,6 +13,8 @@ import Service_Section from './Service-Section'
 import Happy_Client from './Happy_Client';
 import Blog_Section from './Blog_Section'
 import Footer from './Footer';
+import Client_section from './Client_section'
+import Contact_Section from './Contact_Section'
 
 const Home = () => {
     return (
@@ -39,6 +41,8 @@ const Home = () => {
             <Pricing_section />
             <Happy_Client />
             <Blog_Section />
+            <Client_section/>
+            <Contact_Section/>
 
             <Footer />
 
