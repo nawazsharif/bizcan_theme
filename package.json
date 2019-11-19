@@ -3,20 +3,21 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@material-ui/core": "^4.5.2",
+    "@material-ui/core": "^4.6.1",
     "@material-ui/icons": "^4.5.1",
     "bootstrap": "^4.3.1",
     "contentful": "^7.10.0",
     "moment": "^2.24.0",
-    "react": "^16.11.0",
-    "react-bootstrap": "^1.0.0-beta.14",
-    "react-dom": "^16.11.0",
+    "react": "^16.12.0",
+    "react-bootstrap": "^1.0.0-beta.15",
+    "react-dom": "^16.12.0",
     "react-mixitup": "^2.3.0",
     "react-owl-carousel": "^2.3.1",
     "react-owl-carousel2": "^0.3.0",
     "react-router-dom": "^5.1.2",
     "react-scripts": "3.2.0",
-    "react-scroll": "^1.7.14"
+    "react-scroll": "^1.7.14",
+    "reactstrap": "^8.1.1"
   },
   "scripts": {
     "start": "react-scripts start",

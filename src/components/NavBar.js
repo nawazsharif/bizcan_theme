@@ -1,31 +1,39 @@
-import React, { Component } from 'react';
+import React, { Component,useState } from 'react';
 // import { Link } from 'react-router-dom'
 import { Link, animation as scroll } from 'react-scroll'
+import {
+  Collapse,
+  Navbar,
+  NavbarToggler,
+  NavbarBrand,
+  Nav,
+  NavItem,
+  NavLink,
+  UncontrolledDropdown,
+  DropdownToggle,
+  DropdownMenu,
+  DropdownItem } from 'reactstrap';
 
-class NavBar extends Component {
-  render() {
+
+const NavBar =(props) =>{
+  
+  
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggle = () => setIsOpen(!isOpen);
     return (
-      <nav className='navbar navbar-expand-lg'>
+      <Navbar expand="md">
+        
         <Link className="white navbar-brand" to='/'>
           <img src="http://obxtheme.com/demopreview/bizcan/img/logow.png" alt='store' className='navbar-brand' />
         </Link>
         <Link className="dark navbar-brand" to="/"><img src="http://obxtheme.com/demopreview/bizcan/img/logo.png" alt="" /></Link>
-        <button
-          className='navbar-toggler'
-          type='button'
-          data-toggle='collapse'
-          data-target='#navbarSupportedContent'
-          aria-controls='navbarSupportedContent'
-          aria-expanded='false'
-          aria-label='Toggle navigation'
-        >
-          <span className='navbar-toggler-icon' />
-        </button>
-
-        <div className='collapse navbar-collapse' id='navbarSupportedContent'>
-          <ul className='navbar-nav ml-auto'>
-            <li className='nav-item'>
-              <Link activeClass='active'
+     
+        <NavbarToggler onClick={toggle} />
+        <Collapse isOpen={isOpen} navbar>
+          <Nav className="ml-auto" navbar>
+          <NavItem>
+          <Link activeClass='active'
                 spy={true}
                 smooth={true}
                 offset={-70}
@@ -35,22 +43,22 @@ class NavBar extends Component {
                 className='nav-link'>
                 HOME
               </Link>
-            </li>
-            <li className='nav-item'>
-              <Link activeClass='active'
-                spy={true}
-                smooth={true}
-                offset={-70}
+              </NavItem>
+              <NavItem>
+                       <Link
+                 activeClass='active'
+                 spy={true}
+                 smooth={true}
+                 offset={-70}
                 duration={1000}
                 to='about'
-                activeClassName='active'
+                 activeClassName='active'
                 className='nav-link'>
                 ABOUT US
               </Link>
-            </li>
-            <li className='nav-item'>
-              <Link
-                activeClass='active'
+              </NavItem>
+              <NavItem>
+                       <Link activeClass='active'
                 spy={true}
                 smooth={true}
                 offset={-70}
@@ -60,9 +68,9 @@ class NavBar extends Component {
                 className='nav-link'>
                 SERVICE
               </Link>
-            </li>
-            <li className='nav-item'>
-              <Link
+              </NavItem>
+              <NavItem>
+         <Link
                 activeClass='active'
                 spy={true}
                 smooth={true}
@@ -73,9 +81,9 @@ class NavBar extends Component {
                 className='nav-link'>
                 WORKS
               </Link>
-            </li>
-            <li className='nav-item'>
-              <Link
+              </NavItem>
+              <NavItem>
+         <Link
                 activeClass='active'
                 spy={true}
                 smooth={true}
@@ -86,9 +94,9 @@ class NavBar extends Component {
                 className='nav-link'>
                 TEAM
               </Link>
-            </li>
-            <li className='nav-item'>
-              <Link
+              </NavItem>
+              <NavItem>
+         <Link
                 activeClass='active'
                 spy={true}
                 smooth={true}
@@ -99,26 +107,27 @@ class NavBar extends Component {
                 className='nav-link'>
                 BLOG
               </Link>
-            </li>
-            <li className='nav-item'>
-              <Link
-                // activeClass='active'
-                // spy={true}
-                // smooth={true}
-                // offset={-70}
-                // duration={1000}
-                to='/contact'
-                // activeClassName='active'
+              </NavItem>
+              <NavItem>
+         <Link
+                activeClass='active'
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={1000}
+                to='contact'
+                activeClassName='active'
                 className='nav-link'>
-                CONTACT
+                Contact
               </Link>
-            </li>
+              </NavItem>
 
-          </ul>
-        </div>
-      </nav>
+          </Nav>
+        </Collapse>
+      </Navbar>
+      
     );
-  }
+  
 
 }
 export default NavBar;
