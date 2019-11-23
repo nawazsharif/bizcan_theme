@@ -29,18 +29,18 @@ class Header extends Component {
     render() {
 
         return (
-          
-        <header className={this.state.scrolled ? 'main-navigation stick' : 'main-navigation'} id="sticker" >
-            <div className="container">
-                <div className="row">
-                    <div className="col-md-12">
-                        
+
+            <header className={this.state.scrolled ? 'main-navigation stick' : 'main-navigation'} id="sticker" >
+                <div className="container">
+                    <div className="row">
+                        <div className="col-md-12">
+
                             <NavBar />
-                        
+
+                        </div>
                     </div>
                 </div>
-            </div>
-        </header>
+            </header>
 
         );
     }
