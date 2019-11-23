@@ -6,24 +6,7 @@ import { BrowserRouter, Switch, Route } from 'react-router-dom'
 import Home from './components/Home'
 
 class App extends Component {
-  // constructor() {
-  //   super();
-  //   this.state = {
-  //     scrolled: false,
-  //   }
-  // }
-  // componentDidMount() {
-  //   window.addEventListener('scroll', () => {
-  //     const isTop = window.scrollY < 100;
-  //     console.p
-  //   })
-  // }
-  // componentWillMount() {
-  //   // window.removeEventListener('scroll');
-  // }
   render() {
-
-
     return (
       <BrowserRouter>
         <Switch>
