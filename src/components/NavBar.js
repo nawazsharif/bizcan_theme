@@ -38,8 +38,8 @@ const NavBar = (props) => {
       <a className="white navbar-brand" href='/'>
         <img src="http://obxtheme.com/demopreview/bizcan/img/logow.png" alt='store' className='navbar-brand' />
       </a>
-      <Link className="dark navbar-brand" to="/">
-        <img src="http://obxtheme.com/demopreview/bizcan/img/logo.png" alt="" /></Link>
+      <a className="dark navbar-brand" href="/">
+        <img src="http://obxtheme.com/demopreview/bizcan/img/logo.png" alt="" /></a>
       <button type="button" className="navbar-toggle collapsed" onClick={toggle}>
         <span className="sr-only">Toggle navigation</span>
         <span className="icon-bar"></span>

@@ -24,78 +24,6 @@ Version      : 1.0
 =================================================
 
 
-/*----------------------------------------
-## Typography
-----------------------------------------*/
-
-html,
-body {
-    height: 100%;
-    font-family: "Roboto", sans-serif;
-}
-a:focus {
-    outline: 0px solid
-}
-a:hover {
-    color: #ffffff !important;
-    text-decoration: none !important;
-}
-img {
-    max-width: 100%;
-    height: auto;
-}
-.fix {
-    overflow: hidden
-}
-p {
-    margin: 0 0 15px;
-}
-a {
-    transition: all 0.5s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
-        -webkit-transition: all 0.5s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
-            -moz-transition: all 0.5s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
-    text-decoration: none;
-}
-a:hover
-{
-    text-decoration: none;
-}
-a:active,
-a:hover {
-    outline: 0 none;
-    text-decoration: none;
-}
-a:focus {
-    text-decoration: none
-}
-.clear {
-    clear: both
-}
-.no-padding {
-    padding: 0px;
-}
-.no-padding-l {
-    padding-left: 0px;
-}
-.no-padding-r {
-    padding-right: 0px;
-}
-ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-}
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    margin: 0 0 15px;
-    font-weight: 700;
-    font-family: "Roboto", sans-serif;
-}
-
 
 /*----------------------------------------
 #  Header and Menu Area CSS
@@ -2231,11 +2159,11 @@ blockquote {
 }
 .blog-detail .blog-heading a:hover{color: #cd2828 }
 .breadcrumb {
-	background: url(img/clientbg.jpg) no-repeat;
+	background: url(http://obxtheme.com/demopreview/bizcan/img/clientbg.jpg) no-repeat;
 	background-position: center;
 	background-size: cover;
 	position: relative;
-	padding: 200px 0px 50px;
+	padding: 200px 0px 50px !important;
 	text-align: center;
 	color: #fff;
 	margin-bottom: 0px;
@@ -2598,4 +2526,9 @@ blockquote {
 .client-logo-area .owl-carousel .owl-item img {
     display: inherit !important;
     width: auto !important;
+}
+.dropdown{
+    width: auto !important;
+    background: transparent;
+    padding: 7px;
 }
