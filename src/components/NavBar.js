@@ -186,17 +186,25 @@ const NavBar = (props) => {
 
               className='nav-link'>
               BLOG
-                </Link>) : (<Link
-                activeClass='active'
-                spy={true}
-                smooth={true}
-                offset={-70}
-                duration={1000}
-                to='blog'
+              <ul>
+                <li class="nav-item"><a class="nav-link">TEAM</a></li>
+                <li class="nav-item"><a class="nav-link">TEAM</a></li>
+              </ul>
+            </Link>) : (<Link
+              activeClass='active'
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={1000}
+              to='blog'
 
-                className='nav-link'>
-                BLOG
-                </Link>)}
+              className='nav-link'>
+              BLOG
+              <ul>
+                <li class="nav-item"><a class="nav-link">TEAM</a></li>
+                <li class="nav-item"><a class="nav-link">TEAM</a></li>
+              </ul>
+            </Link>)}
 
           </NavItem>
           <NavItem>

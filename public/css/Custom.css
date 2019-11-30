@@ -853,7 +853,7 @@ box-shadow: 0 10px 30px rgba(0, 0, 0, 0.19), 0 6px 10px rgba(0, 0, 0, 0.23);
     color: #cd2828 !important;
 }
 .readmore:hover {
-    color: #cd2828
+    color: #cd2828 !important;
 }
 .blog-banner-area {
     padding: 0px;

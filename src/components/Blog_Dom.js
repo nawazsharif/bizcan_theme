@@ -19,7 +19,7 @@ class Blog_Dom extends Component {
             </div>
             <div className="blog-content">
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum optio accusantium at ducimus sunt soluta, totam nostrum veniam doloremque.</p>
-              <Link to="#" className="readmore">read more</Link>
+              <a href="/blog" className="readmore">read more</a>
             </div>
           </div>
         </div>
