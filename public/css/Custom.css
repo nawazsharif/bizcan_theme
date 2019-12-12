@@ -50,6 +50,25 @@ Version      : 1.0
 .navbar-brand {
     padding-top: 0px;
 }
+
+.main-navigation .navbar-light .navbar-nav .nav-link {
+    color: #fff;
+    cursor: pointer;
+}
+
+.main-navigation .navbar-light .navbar-nav .active>.nav-link, .main-navigation .navbar-light .navbar-nav .nav-link.active, .main-navigation .navbar-light .navbar-nav .nav-link.show, .main-navigation .navbar-light .navbar-nav .show>.nav-link {
+    color: #fff;
+}
+
+
+
+.main-navigation .navbar-light .navbar-nav .nav-link:hover {
+    color: #cd2828 ;
+}
+
+.stick .navbar-light .navbar-nav .nav-link {
+    color: #000;
+}
 .navbar {
     background-color: transparent;
     border-color: transparent;
@@ -2564,5 +2583,5 @@ blockquote {
 .dropdown{
     width: auto !important;
     background: transparent;
-    padding: 7px;
+    padding: 0;
 }
